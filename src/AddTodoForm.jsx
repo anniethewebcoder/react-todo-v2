@@ -7,7 +7,7 @@ function AddTodoForm(props) {
         console.log(todoTitle)
         props.onAddTodo(todoTitle)
 
-        
+        event.target.title.value = ""
     }
 
     return (
