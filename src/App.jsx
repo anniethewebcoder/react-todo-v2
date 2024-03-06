@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 function App() {
 
-  const [newTodo, setNewTodo] = useState()
+  const [newTodo, setNewTodo] = useState("")
 
   return (
     <>
